@@ -1,0 +1,32 @@
+{
+    "NetflixSubtitleZoom": {
+        "message": "Netflix Subtitle Zoom"
+    },
+    "zoomSize": {
+        "message": "字幕縮放倍率："
+    },
+    "bgColor": {
+        "message": "字幕背景色："
+    },
+    "bgOpacity": {
+        "message": "字幕背景色透明度："
+    },
+    "fixedBottom": {
+        "message": "字幕固定在畫面下方"
+    },
+    "bottomOffset": {
+        "message": "字幕固定在畫面下方偏移值："
+    },
+    "resetSettings": {
+        "message": "預設值"
+    },
+    "saveSettings": {
+        "message": "儲存設定"
+    },
+    "saveOk": {
+        "message": "資料已儲存"
+    },
+    "hint": {
+        "message": "設定儲存後，點擊工作列按鈕使新設定生效"
+    }
+}

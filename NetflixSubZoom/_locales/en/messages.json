@@ -1,0 +1,32 @@
+{
+    "NetflixSubtitleZoom": {
+        "message": "Netflix Subtitle Zoom"
+    },
+    "zoomSize": {
+        "message": "zoom size:"
+    },
+    "bgColor": {
+        "message": "background color:"
+    },
+    "bgOpacity": {
+        "message": "background opacity:"
+    },
+    "fixedBottom": {
+        "message": "subtitle position fixed at bottom"
+    },
+    "bottomOffset": {
+        "message": "bottom offset:"
+    },
+    "resetSettings": {
+        "message": "Default"
+    },
+    "saveSettings": {
+        "message": "Save settings"
+    },
+    "saveOk": {
+        "message": "Data saved."
+    },
+    "hint": {
+        "message": "After setting saved, click toolbar button to active new setting."
+    }
+}

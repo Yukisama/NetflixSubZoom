@@ -1,0 +1,24 @@
+Version 1.0.0　2017-11-02
+------
+fix a few bugs.
+Release to AMO. [ https://addons.mozilla.org/addon/netflix-subtitle-zoom/ ]
+
+
+Version 1.0beta　2017-11-01
+------
+Languages complated:
+1.en
+2.zh_TW
+
+Features complated: 
+
+Adjust Netflix subtitle zoom for "Image type subtitle"  
+
+Options complated: 
+
+1.zoom size  
+2.background color  
+3.background opacity  
+4.subtitle position fixed at bottom  
+5.bottom offset
+

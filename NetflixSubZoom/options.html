@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="options.css" />
+</head>
+
+<body>
+    <form>
+        <label data-i18n="zoomSize">zoom size:</label><br />
+        <input type="range" id="inpZoomSize" min="0.1" max="2.5" step="0.1" value="1.5" /><label id="lblZoomSize"></label><label>x</label><br /><br />        
+        <label data-i18n="bgColor">background color:</label><br />
+        <input type="color" id="inpBgColor" /><label id="lblBgColor"></label><br /><br />
+        <label data-i18n="bgOpacity">background opacity:</label><br />
+        <input type="range" id="inpBgOpacity" min="0" max="100" step="10" value="60" /><label id="lblBgOpacity"></label><label>%</label><br /><br />        
+        <input type="checkbox" id="inpFixedBottom" /><label data-i18n="fixedBottom" for="inpFixedBottom">subtitle position fixed at bottom</label><br /><br />
+        <label data-i18n="bottomOffset">bottom offset:</label><br />
+        <input type="range" id="inpBottomOffset" min="0" max="25" step="1" value="2" /><label id="lblBottomOffset"></label><label>%</label><br /><br />
+        <label data-i18n="hint">After setting saved, click toolbar button to active new setting.</label>
+        <hr />
+        <button type="button" id="inpResetSettings" data-i18n="resetSettings">Default</button>
+        <button type="submit" data-i18n="saveSettings">Save settings</button>
+    </form>
+    <label id="lblSaved" data-i18n="saveOk">Data saved.</label>
+    <script src="common.js"></script>
+    <script src="options.js"></script>
+</body>
+
+</html>
