@@ -1,3 +1,8 @@
+Version 1.0.1　2018-03-19
+------
+fix subtitle viewbox size bug.
+
+
 Version 1.0.0　2017-11-02
 ------
 fix a few bugs.
@@ -20,5 +25,4 @@ Options complated:
 2.background color  
 3.background opacity  
 4.subtitle position fixed at bottom  
-5.bottom offset
-
+5.bottom offset  

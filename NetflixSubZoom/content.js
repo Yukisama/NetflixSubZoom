@@ -44,8 +44,8 @@ function subtitleZoom(size) {
     let sublist = target.querySelectorAll("svg image[x][y][width][height]");
     if (sublist.length == 1) {
         sublist.forEach((sub) => {
-            let svgw = target.getBBox().width;
-            let svgh = target.getBBox().height;
+            let svgw = target.viewBox.baseVal.width;
+            let svgh = target.viewBox.baseVal.height;
             let subx = parseFloat(sub.getAttribute("x")) || 0;
             let suby = parseFloat(sub.getAttribute("y")) || 0;
             let subw = parseFloat(sub.getAttribute("width")) || 0;
